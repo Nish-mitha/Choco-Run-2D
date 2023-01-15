@@ -46,7 +46,7 @@ class button():
 def redraw(player_name):
     #main_bg = pygame.image.load('Images/start.jpg')
     #main_screen.blit(main_bg, (0, 0))
-    main_screen.fill((230, 16, 55))
+    main_screen.fill((171, 194, 112))
     avatar=pygame.image.load('assets/images/user.png')
     main_screen.blit(avatar,(10,15))
     font = pygame.font.Font('freesansbold.ttf', 40)
@@ -111,7 +111,7 @@ def start_menu(player_name):
                     message=""
                     for i in range(len(value)):
                         message=message+str(value[i][0])+"\n"
-                    label = Label(window, text=message, bg="white", fg="black",width=30,anchor=CENTER).place(x=50, y=20)
+                    label = Label(window, text=message, bg="yellow", fg="black", width=33,anchor=CENTER).place(x=20, y=20)
                     window.mainloop()
                 if logout.isAbove(pos):
                     btn5 = mixer.Sound('assets/music/button_sound.wav')  # Bullet sound
