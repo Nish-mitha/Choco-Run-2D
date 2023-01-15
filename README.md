@@ -1,3 +1,5 @@
+![Header](assets/images/demo.gif)
+
 # :runner: :doughnut: Choco-Run-2D :doughnut: :runner:
 ### :runner: :chocolate_bar: Choco Run 2D is a 2D game made using Python, Pygame, PyMysql and tkinter.
 + **In this game we are maintaing a database to keep track of the players and their score.**
@@ -11,7 +13,7 @@
     + If login credentials are invalid then user will not be allowed to proceed with the appropriate message.
     
         ![Player login](assets/images/login.png)
-  + ### Score Board: 
+  + ### :trophy: Score Board: 
     + Players Score will be displayed in the main menu score board.
     
         ![Score](assets/images/score.png) 
