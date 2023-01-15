@@ -1,5 +1,21 @@
 # :runner: :doughnut: Choco-Run-2D :doughnut: :runner:
-### :runner: :chocolate_bar: Choco Run 2D is a 2D game made using Python, Pygame, PyMysql and tkinter. 
+### :runner: :chocolate_bar: Choco Run 2D is a 2D game made using Python, Pygame, PyMysql and tkinter.
++ **In this game we are maintaing a database to keep track of the players and their score.**
+  + ### Registration Module: 
+    + Players can register with their name, Players name and a login password.
+    + If Users are already registered it will block from registration.
+    
+        ![Player registration](assets/images/registration.png)
+  + ### Login Module: 
+    + Players can login with their Players name and a login password.
+    + If login credentials are invalid then user will not be allowed to proceed with the appropriate message.
+    
+        ![Player login](assets/images/login.png)
+  + ### Score Board: 
+    + Players Score will be displayed in the main menu score board.
+    
+        ![Score](assets/images/score_board.png) 
+--- 
 
 ### [Pygame](https://www.pygame.org/docs/)
   + Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
