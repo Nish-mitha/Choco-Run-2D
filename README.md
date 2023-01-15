@@ -14,7 +14,7 @@
   + ### Score Board: 
     + Players Score will be displayed in the main menu score board.
     
-        ![Score](assets/images/score_board.png) 
+        ![Score](assets/images/score.png) 
 --- 
 
 ### [Pygame](https://www.pygame.org/docs/)
